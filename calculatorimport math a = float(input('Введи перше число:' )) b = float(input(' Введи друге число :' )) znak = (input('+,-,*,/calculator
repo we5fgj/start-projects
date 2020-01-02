@@ -1,0 +1,18 @@
+import math
+a = float(input('Введи перше число:' ))
+b = float(input(' Введи друге число :' ))
+znak = (input('+,-,*,/?:' ))
+if znak == '+':
+    c = a + b 
+    print(c)
+elif znak == '-':
+    c = a - b 
+    print(c)
+elif znak == '*':
+    c = a * b 
+    print(c)
+elif znak == '/':
+    c = a / b 
+    print(c)
+else:
+    print('Введено невірне значення')        
